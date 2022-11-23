@@ -28,12 +28,43 @@
               placeholder="First name and Second name"
             />
           </div>
-          <div class="form-control">
-            <input type="number" name="password" placeholder="Number" />
+          <div class="form-control" id="info">
+            <input
+              onclick="infoPopup()"
+              type="number"
+              name="password"
+              placeholder="Number"
+            />
           </div>
-          <input type="submit" value="submit" class="btn btn-primary" />
+          <div>
+            <input
+              type="submit"
+              value="submit"
+              class="btn btn-primary"
+              onclick="openPopup()"
+            />
+            <div class="popup" id="popup">
+              <img src="./media/Check.jpg" alt="" />
+              <h2>Thank You</h2>
+              <p>Your details has been succcessfully submitted. Thanks</p>
+              <button type="button" onclick="ClosePopup()">Ok</button>
+            </div>
+          </div>
         </form>
       </div>
     </section>
+
+    <script>
+      let popup = document.getElementById("popup");
+      let info = document.getElementById("info");
+
+      function openPopup() {
+        popup.classList.add("open-popup");
+      }
+      
+      function closePopup() {
+        popup.classList.remove("open-popup");
+      }
+    </script>
   </body>
 </html>
