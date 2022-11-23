@@ -73,3 +73,20 @@ h3 {
   padding: 5px 10px 5px 40px;
   border: 2px solid black;
 }
+
+@media (max-width: 500px) {
+  .price_section {
+    grid-template-columns: 1fr;
+  }
+  .Price_head {
+    gap: 0;
+    padding-block: 0;
+  }
+  .price_nav {
+    margin-left: 100px;
+  }
+
+  .price_footer {
+    width: 200px;
+  }
+}
