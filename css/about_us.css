@@ -38,3 +38,17 @@
   top: 50px;
   left: 140px;
 }
+
+.about_img h3 {
+  width: 300px;
+  position: absolute;
+  top: 250px;
+  left: 190px;
+}
+
+.about_img p {
+  width: 300px;
+  position: absolute;
+  top: 300px;
+  left: 160px;
+}
