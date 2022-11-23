@@ -5,5 +5,71 @@
 
 .Price_head {
   text-align: center;
-  padding-block: 50px;
+  padding-top: 50px;
+  border-bottom: 8px solid black;
+}
+
+.Price_head a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 4px black solid;
+}
+
+.Price_head a:hover {
+  font-size: 23px;
+}
+
+.section_price {
+  margin-top: 100px;
+}
+
+.price_section {
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin-left: 12%;
+}
+.price_group {
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.Arabic_h {
+  margin-left: 100px;
+}
+.arabic_price h1,
+h3 {
+  font-size: 35px;
+}
+
+.arabic_price p {
+  font-size: 18px;
+  color: gray;
+}
+
+.price_nav {
+  background-color: rgb(255, 115, 0);
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 20px;
+  margin-left: 75%;
+}
+
+.price_nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.price_footer {
+  font-size: 25px;
+  width: 600px;
+  margin-top: 15px;
+  margin-left: 28%;
+  padding: 5px 10px 5px 40px;
+  border: 2px solid black;
 }
