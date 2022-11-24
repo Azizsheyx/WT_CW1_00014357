@@ -1,0 +1,99 @@
+.introductory_header {
+  height: 220px;
+  text-align: center;
+}
+
+.introductory_header h1 {
+  background-color: red;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50px;
+  margin-left: 27%;
+}
+
+.introductory_nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.introductory_nav a {
+  text-decoration: none;
+  font-size: 25px;
+  background-color: orange;
+  padding: 12px 10px;
+  border-radius: 20px;
+}
+
+.introductory_nav a:hover {
+  background-color: red;
+}
+.section_intro {
+  text-align: center;
+}
+
+.section_intro h1 {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.section_intro p {
+  font-size: 20px;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 0;
+}
+
+.basic_site {
+  padding-block: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.first_lesson {
+  font-size: 20px;
+  border: 2px solid black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.first_p {
+  background-color: brown;
+  width: 120px;
+  padding: 12px;
+  margin-left: 25%;
+}
+
+.first_lesson a {
+  background-color: orange;
+  padding: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.first_lesson a:hover {
+  background-color: green;
+}
+
+.footer_intro {
+  font-size: 40px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+@media (max-width: 500px) {
+  .introductory_header h1 {
+    width: 200px;
+    height: 120px;
+    margin-left: 0;
+  }
+  .first_p {
+    margin-left: 45px;
+  }
+  .basic_site {
+    grid-template-columns: 1fr;
+  }
+}
