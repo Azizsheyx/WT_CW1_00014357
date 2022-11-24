@@ -1,3 +1,9 @@
 # WT_CW1_00014357
 My name is Azizbek Ergashev. 
-I try to create HTML pages for company and also CSS and Javascript. I chose Al Azhar study. This is study center. It is located in Tashkent, Chorsu. There are 6 pages in my website  like "Home", "About us", "Courses", "Prices", "Frequently Asked question", "registration.html" and "Free introductory lesson" pages. 
+I try to create HTML pages for company and also CSS and Javascript. I chose Al Azhar study. This is study center. It is located in Tashkent, Chorsu. There are 6 pages in my website  like "Home", "About us", "Courses", "Prices", "Frequently Asked question", "registration.html" and "Free introductory lesson" pages. All website divided to 3 part like Header, Section, Footer. If i say about how write code, i tried to write clearly. i separate such group all code and it is understandable.
+In Header part, you can see that there are nav tag and also h1 or p tag. In addition, i try to use different style for each website's header. And aslo, i choose different color for header. There are "Home", "course" and "About us" link in header. 
+In section part described diiferent information about Al Azhar. In the "Home" part's section desrcibed basic part, namely "Home" part collected all of the html pages. The every pages have different roles for website
+In footer part give information about location, telephone, instagram, facebook. in this site, there are also basic html pages link for find easy from website. If people falls of website, they can find other page link, don't not go to the top for go to other page.
+For all pages i tried to use different css value for do beautiful style like display, width, height, different font-family and font size, padding, margin, border, border-radius and others. 
+and also i used javascript for when click of the submit. If people click it, show that "Thank you for register. Successufully register".it help to people for understand. 
+The website made basically from css and html. By the way, i tried to do responive to phone and computer. When screen gets smaller, it will be responsive phone. it also comfortable to use in phone. 
